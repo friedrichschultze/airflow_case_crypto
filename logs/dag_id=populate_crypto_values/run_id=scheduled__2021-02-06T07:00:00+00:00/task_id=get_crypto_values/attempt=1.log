@@ -1,0 +1,48 @@
+[2023-01-04 04:04:32,416] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-06T07:00:00+00:00 [queued]>
+[2023-01-04 04:04:32,437] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-06T07:00:00+00:00 [queued]>
+[2023-01-04 04:04:32,438] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 04:04:32,438] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-04 04:04:32,438] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 04:04:32,981] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_crypto_values> on 2021-02-06 07:00:00+00:00
+[2023-01-04 04:04:33,129] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'populate_crypto_values', 'get_crypto_values', 'scheduled__2021-02-06T07:00:00+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/populate_crypto_values.py', '--cfg-path', '/tmp/tmp15iig7hp', '--error-file', '/tmp/tmp5vts8wai']
+[2023-01-04 04:04:33,132] {standard_task_runner.py:80} INFO - Job 65: Subtask get_crypto_values
+[2023-01-04 04:04:33,094] {standard_task_runner.py:52} INFO - Started process 60437 to run task
+[2023-01-04 04:04:34,731] {task_command.py:370} INFO - Running <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-06T07:00:00+00:00 [running]> on host xuxon-virtual-machine
+[2023-01-04 04:04:35,199] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=populate_crypto_values
+AIRFLOW_CTX_TASK_ID=get_crypto_values
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-06T07:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-06T07:00:00+00:00
+[2023-01-04 04:04:36,326] {logging_mixin.py:115} INFO - New rows have been added.
+[2023-01-04 04:04:36,327] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-04 04:04:36,335] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=populate_crypto_values, task_id=get_crypto_values, execution_date=20210206T070000, start_date=20230104T070432, end_date=20230104T070436
+[2023-01-04 04:04:36,455] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-04 04:04:36,490] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-01-04 05:20:57,882] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-06T07:00:00+00:00 [queued]>
+[2023-01-04 05:20:57,906] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-06T07:00:00+00:00 [queued]>
+[2023-01-04 05:20:57,906] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 05:20:57,906] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-04 05:20:57,906] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 05:20:57,918] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_crypto_values> on 2021-02-06 07:00:00+00:00
+[2023-01-04 05:20:57,923] {standard_task_runner.py:52} INFO - Started process 8083 to run task
+[2023-01-04 05:20:57,929] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'populate_crypto_values', 'get_crypto_values', 'scheduled__2021-02-06T07:00:00+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/populate_crypto_values.py', '--cfg-path', '/tmp/tmpy15pw81o', '--error-file', '/tmp/tmpr3lsaufc']
+[2023-01-04 05:20:57,929] {standard_task_runner.py:80} INFO - Job 94: Subtask get_crypto_values
+[2023-01-04 05:20:57,988] {task_command.py:370} INFO - Running <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-06T07:00:00+00:00 [running]> on host xuxon-virtual-machine
+[2023-01-04 05:20:58,053] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=populate_crypto_values
+AIRFLOW_CTX_TASK_ID=get_crypto_values
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-06T07:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-06T07:00:00+00:00
+[2023-01-04 05:20:59,477] {logging_mixin.py:115} INFO - New rows have been added.
+[2023-01-04 05:20:59,478] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-04 05:20:59,508] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=populate_crypto_values, task_id=get_crypto_values, execution_date=20210206T070000, start_date=20230104T082057, end_date=20230104T082059
+[2023-01-04 05:20:59,560] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-04 05:20:59,583] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,66 @@
+[2023-01-04 04:05:23,537] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-11T07:00:00+00:00 [queued]>
+[2023-01-04 04:05:23,544] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-11T07:00:00+00:00 [queued]>
+[2023-01-04 04:05:23,544] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 04:05:23,544] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-04 04:05:23,544] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 04:05:23,811] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_crypto_values> on 2021-02-11 07:00:00+00:00
+[2023-01-04 04:05:23,817] {standard_task_runner.py:52} INFO - Started process 60637 to run task
+[2023-01-04 04:05:23,833] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'populate_crypto_values', 'get_crypto_values', 'scheduled__2021-02-11T07:00:00+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/populate_crypto_values.py', '--cfg-path', '/tmp/tmp7scoqjks', '--error-file', '/tmp/tmpcz_jhg_a']
+[2023-01-04 04:05:23,834] {standard_task_runner.py:80} INFO - Job 70: Subtask get_crypto_values
+[2023-01-04 04:05:24,072] {task_command.py:370} INFO - Running <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-11T07:00:00+00:00 [running]> on host xuxon-virtual-machine
+[2023-01-04 04:05:24,589] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=populate_crypto_values
+AIRFLOW_CTX_TASK_ID=get_crypto_values
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-11T07:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-11T07:00:00+00:00
+[2023-01-04 04:05:26,218] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/xuxon/Documents/airflow_case/dags/populate_crypto_values.py", line 79, in get_crypto_values_func
+    errors = client.insert_rows_json('data-case-study-322621.renan.crypto_currency', price_dict_list)
+  File "/home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/google/cloud/bigquery/client.py", line 3666, in insert_rows_json
+    response = self._call_api(
+  File "/home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/google/cloud/bigquery/client.py", line 789, in _call_api
+    return call()
+  File "/home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/google/api_core/retry.py", line 349, in retry_wrapped_func
+    return retry_target(
+  File "/home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/google/api_core/retry.py", line 191, in retry_target
+    return target()
+  File "/home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/google/cloud/_http/__init__.py", line 494, in api_request
+    raise exceptions.from_http_response(response)
+google.api_core.exceptions.NotFound: 404 POST https://bigquery.googleapis.com/bigquery/v2/projects/data-case-study-322621/datasets/renan/tables/crypto_currency/insertAll?prettyPrint=false: Table 21710011226:renan.crypto_currency not found.
+[2023-01-04 04:05:26,256] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=populate_crypto_values, task_id=get_crypto_values, execution_date=20210211T070000, start_date=20230104T070523, end_date=20230104T070526
+[2023-01-04 04:05:26,472] {standard_task_runner.py:92} ERROR - Failed to execute job 70 for task get_crypto_values (404 POST https://bigquery.googleapis.com/bigquery/v2/projects/data-case-study-322621/datasets/renan/tables/crypto_currency/insertAll?prettyPrint=false: Table 21710011226:renan.crypto_currency not found.; 60637)
+[2023-01-04 04:05:26,553] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-01-04 04:05:26,581] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-01-04 05:21:18,756] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-11T07:00:00+00:00 [queued]>
+[2023-01-04 05:21:18,789] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-11T07:00:00+00:00 [queued]>
+[2023-01-04 05:21:18,789] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 05:21:18,789] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-04 05:21:18,789] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 05:21:18,803] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_crypto_values> on 2021-02-11 07:00:00+00:00
+[2023-01-04 05:21:18,808] {standard_task_runner.py:52} INFO - Started process 8186 to run task
+[2023-01-04 05:21:18,814] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'populate_crypto_values', 'get_crypto_values', 'scheduled__2021-02-11T07:00:00+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/populate_crypto_values.py', '--cfg-path', '/tmp/tmp2pzrcupo', '--error-file', '/tmp/tmpvgbolarh']
+[2023-01-04 05:21:18,831] {standard_task_runner.py:80} INFO - Job 99: Subtask get_crypto_values
+[2023-01-04 05:21:18,892] {task_command.py:370} INFO - Running <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2021-02-11T07:00:00+00:00 [running]> on host xuxon-virtual-machine
+[2023-01-04 05:21:18,959] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=populate_crypto_values
+AIRFLOW_CTX_TASK_ID=get_crypto_values
+AIRFLOW_CTX_EXECUTION_DATE=2021-02-11T07:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-02-11T07:00:00+00:00
+[2023-01-04 05:21:20,414] {logging_mixin.py:115} INFO - New rows have been added.
+[2023-01-04 05:21:20,414] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-04 05:21:20,422] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=populate_crypto_values, task_id=get_crypto_values, execution_date=20210211T070000, start_date=20230104T082118, end_date=20230104T082120
+[2023-01-04 05:21:20,443] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-04 05:21:20,465] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

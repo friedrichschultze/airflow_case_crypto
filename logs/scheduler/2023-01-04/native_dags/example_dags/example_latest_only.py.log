@@ -1,0 +1,760 @@
+[2023-01-04 02:08:13,704] {processor.py:153} INFO - Started process (PID=46971) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:08:13,706] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:08:13,706] {logging_mixin.py:115} INFO - [2023-01-04 02:08:13,706] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:08:13,757] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:08:13,849] {logging_mixin.py:115} INFO - [2023-01-04 02:08:13,849] {manager.py:508} INFO - Created Permission View: can read on DAG:latest_only
+[2023-01-04 02:08:13,860] {logging_mixin.py:115} INFO - [2023-01-04 02:08:13,860] {manager.py:508} INFO - Created Permission View: can delete on DAG:latest_only
+[2023-01-04 02:08:13,869] {logging_mixin.py:115} INFO - [2023-01-04 02:08:13,869] {manager.py:508} INFO - Created Permission View: can edit on DAG:latest_only
+[2023-01-04 02:08:13,870] {logging_mixin.py:115} INFO - [2023-01-04 02:08:13,870] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:08:13,879] {logging_mixin.py:115} INFO - [2023-01-04 02:08:13,879] {dag.py:2398} INFO - Creating ORM DAG for latest_only
+[2023-01-04 02:08:13,892] {logging_mixin.py:115} INFO - [2023-01-04 02:08:13,892] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:08:13.892106+00:00, run_after=2023-01-04T05:08:13.892106+00:00
+[2023-01-04 02:08:13,909] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.210 seconds
+[2023-01-04 02:09:09,678] {processor.py:153} INFO - Started process (PID=47341) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:09:09,680] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:09:09,681] {logging_mixin.py:115} INFO - [2023-01-04 02:09:09,681] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:09:09,694] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:09:09,718] {logging_mixin.py:115} INFO - [2023-01-04 02:09:09,718] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:09:09,744] {logging_mixin.py:115} INFO - [2023-01-04 02:09:09,743] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:09:09.743549+00:00, run_after=2023-01-04T05:09:09.743549+00:00
+[2023-01-04 02:09:09,756] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-01-04 02:09:53,926] {processor.py:153} INFO - Started process (PID=47393) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:09:53,928] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:09:53,928] {logging_mixin.py:115} INFO - [2023-01-04 02:09:53,928] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:09:53,939] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:09:53,981] {logging_mixin.py:115} INFO - [2023-01-04 02:09:53,981] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:09:54,020] {logging_mixin.py:115} INFO - [2023-01-04 02:09:54,020] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:09:54.020223+00:00, run_after=2023-01-04T05:09:54.020223+00:00
+[2023-01-04 02:09:54,051] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.131 seconds
+[2023-01-04 02:12:29,626] {processor.py:153} INFO - Started process (PID=47532) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:12:29,686] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:12:29,687] {logging_mixin.py:115} INFO - [2023-01-04 02:12:29,687] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:12:29,695] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:12:29,720] {logging_mixin.py:115} INFO - [2023-01-04 02:12:29,720] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:12:29,747] {logging_mixin.py:115} INFO - [2023-01-04 02:12:29,746] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:12:29.746364+00:00, run_after=2023-01-04T05:12:29.746364+00:00
+[2023-01-04 02:12:29,760] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.141 seconds
+[2023-01-04 02:13:09,083] {processor.py:153} INFO - Started process (PID=47624) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:13:09,085] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:13:09,086] {logging_mixin.py:115} INFO - [2023-01-04 02:13:09,086] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:13:09,097] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:13:09,121] {logging_mixin.py:115} INFO - [2023-01-04 02:13:09,121] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:13:09,146] {logging_mixin.py:115} INFO - [2023-01-04 02:13:09,146] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:13:09.146248+00:00, run_after=2023-01-04T05:13:09.146248+00:00
+[2023-01-04 02:13:09,160] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2023-01-04 02:13:56,155] {processor.py:153} INFO - Started process (PID=47704) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:13:56,156] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:13:56,157] {logging_mixin.py:115} INFO - [2023-01-04 02:13:56,157] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:13:56,166] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:13:56,190] {logging_mixin.py:115} INFO - [2023-01-04 02:13:56,190] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:13:56,217] {logging_mixin.py:115} INFO - [2023-01-04 02:13:56,217] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:13:56.216885+00:00, run_after=2023-01-04T05:13:56.216885+00:00
+[2023-01-04 02:13:56,232] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-01-04 02:16:07,824] {processor.py:153} INFO - Started process (PID=47796) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:16:08,187] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:16:08,188] {logging_mixin.py:115} INFO - [2023-01-04 02:16:08,188] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:16:08,198] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:16:08,225] {logging_mixin.py:115} INFO - [2023-01-04 02:16:08,225] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:16:08,261] {logging_mixin.py:115} INFO - [2023-01-04 02:16:08,261] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:16:08.261237+00:00, run_after=2023-01-04T05:16:08.261237+00:00
+[2023-01-04 02:16:08,278] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.465 seconds
+[2023-01-04 02:18:08,273] {processor.py:153} INFO - Started process (PID=47949) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:18:08,292] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:18:08,293] {logging_mixin.py:115} INFO - [2023-01-04 02:18:08,293] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:18:08,301] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:18:08,325] {logging_mixin.py:115} INFO - [2023-01-04 02:18:08,324] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:18:08,351] {logging_mixin.py:115} INFO - [2023-01-04 02:18:08,351] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:18:08.350826+00:00, run_after=2023-01-04T05:18:08.350826+00:00
+[2023-01-04 02:18:08,366] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.102 seconds
+[2023-01-04 02:18:55,671] {processor.py:153} INFO - Started process (PID=48028) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:18:55,672] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:18:55,673] {logging_mixin.py:115} INFO - [2023-01-04 02:18:55,673] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:18:55,683] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:18:55,711] {logging_mixin.py:115} INFO - [2023-01-04 02:18:55,711] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:18:55,745] {logging_mixin.py:115} INFO - [2023-01-04 02:18:55,745] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:18:55.745186+00:00, run_after=2023-01-04T05:18:55.745186+00:00
+[2023-01-04 02:18:55,762] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.096 seconds
+[2023-01-04 02:19:34,772] {processor.py:153} INFO - Started process (PID=48077) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:19:34,773] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:19:34,774] {logging_mixin.py:115} INFO - [2023-01-04 02:19:34,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:19:34,782] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:19:34,808] {logging_mixin.py:115} INFO - [2023-01-04 02:19:34,807] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:19:34,837] {logging_mixin.py:115} INFO - [2023-01-04 02:19:34,836] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:19:34.836593+00:00, run_after=2023-01-04T05:19:34.836593+00:00
+[2023-01-04 02:19:34,853] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-01-04 02:20:12,602] {processor.py:153} INFO - Started process (PID=48124) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:20:12,604] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:20:12,605] {logging_mixin.py:115} INFO - [2023-01-04 02:20:12,605] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:20:12,615] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:20:12,643] {logging_mixin.py:115} INFO - [2023-01-04 02:20:12,643] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:20:12,673] {logging_mixin.py:115} INFO - [2023-01-04 02:20:12,673] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:20:12.673230+00:00, run_after=2023-01-04T05:20:12.673230+00:00
+[2023-01-04 02:20:12,690] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.093 seconds
+[2023-01-04 02:20:56,446] {processor.py:153} INFO - Started process (PID=48169) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:20:56,449] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:20:56,450] {logging_mixin.py:115} INFO - [2023-01-04 02:20:56,450] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:20:56,462] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:20:56,501] {logging_mixin.py:115} INFO - [2023-01-04 02:20:56,501] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:20:56,537] {logging_mixin.py:115} INFO - [2023-01-04 02:20:56,537] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:20:56.537133+00:00, run_after=2023-01-04T05:20:56.537133+00:00
+[2023-01-04 02:20:56,555] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2023-01-04 02:21:33,453] {processor.py:153} INFO - Started process (PID=48220) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:21:33,455] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:21:33,456] {logging_mixin.py:115} INFO - [2023-01-04 02:21:33,455] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:21:33,465] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:21:33,491] {logging_mixin.py:115} INFO - [2023-01-04 02:21:33,491] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:21:33,522] {logging_mixin.py:115} INFO - [2023-01-04 02:21:33,522] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:21:33.522141+00:00, run_after=2023-01-04T05:21:33.522141+00:00
+[2023-01-04 02:21:33,539] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.091 seconds
+[2023-01-04 02:22:13,956] {processor.py:153} INFO - Started process (PID=48263) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:22:13,958] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:22:13,960] {logging_mixin.py:115} INFO - [2023-01-04 02:22:13,960] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:22:13,971] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:22:13,993] {logging_mixin.py:115} INFO - [2023-01-04 02:22:13,993] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:22:14,017] {logging_mixin.py:115} INFO - [2023-01-04 02:22:14,017] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:22:14.017023+00:00, run_after=2023-01-04T05:22:14.017023+00:00
+[2023-01-04 02:22:14,032] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-01-04 02:22:50,217] {processor.py:153} INFO - Started process (PID=48308) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:22:50,219] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:22:50,221] {logging_mixin.py:115} INFO - [2023-01-04 02:22:50,220] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:22:50,232] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:22:50,255] {logging_mixin.py:115} INFO - [2023-01-04 02:22:50,255] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:22:50,280] {logging_mixin.py:115} INFO - [2023-01-04 02:22:50,280] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:22:50.280179+00:00, run_after=2023-01-04T05:22:50.280179+00:00
+[2023-01-04 02:22:50,295] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2023-01-04 02:23:27,222] {processor.py:153} INFO - Started process (PID=48345) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:23:27,223] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:23:27,224] {logging_mixin.py:115} INFO - [2023-01-04 02:23:27,224] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:23:27,234] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:23:27,258] {logging_mixin.py:115} INFO - [2023-01-04 02:23:27,258] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:23:27,285] {logging_mixin.py:115} INFO - [2023-01-04 02:23:27,285] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:23:27.284852+00:00, run_after=2023-01-04T05:23:27.284852+00:00
+[2023-01-04 02:23:27,299] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.084 seconds
+[2023-01-04 02:24:02,764] {processor.py:153} INFO - Started process (PID=48384) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:24:02,765] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:24:02,766] {logging_mixin.py:115} INFO - [2023-01-04 02:24:02,766] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:24:02,775] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:24:02,801] {logging_mixin.py:115} INFO - [2023-01-04 02:24:02,801] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:24:02,829] {logging_mixin.py:115} INFO - [2023-01-04 02:24:02,829] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:24:02.829459+00:00, run_after=2023-01-04T05:24:02.829459+00:00
+[2023-01-04 02:24:02,849] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2023-01-04 02:24:39,375] {processor.py:153} INFO - Started process (PID=48440) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:24:39,377] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:24:39,377] {logging_mixin.py:115} INFO - [2023-01-04 02:24:39,377] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:24:39,385] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:24:39,407] {logging_mixin.py:115} INFO - [2023-01-04 02:24:39,407] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:24:39,432] {logging_mixin.py:115} INFO - [2023-01-04 02:24:39,432] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:24:39.432373+00:00, run_after=2023-01-04T05:24:39.432373+00:00
+[2023-01-04 02:24:39,447] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-01-04 02:25:22,142] {processor.py:153} INFO - Started process (PID=48485) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:25:22,144] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:25:22,146] {logging_mixin.py:115} INFO - [2023-01-04 02:25:22,146] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:25:22,157] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:25:22,180] {logging_mixin.py:115} INFO - [2023-01-04 02:25:22,179] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:25:22,207] {logging_mixin.py:115} INFO - [2023-01-04 02:25:22,207] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:25:22.207136+00:00, run_after=2023-01-04T05:25:22.207136+00:00
+[2023-01-04 02:25:22,222] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2023-01-04 02:25:58,649] {processor.py:153} INFO - Started process (PID=48531) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:25:58,650] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:25:58,650] {logging_mixin.py:115} INFO - [2023-01-04 02:25:58,650] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:25:58,659] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:25:58,683] {logging_mixin.py:115} INFO - [2023-01-04 02:25:58,683] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:25:58,708] {logging_mixin.py:115} INFO - [2023-01-04 02:25:58,708] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:25:58.708469+00:00, run_after=2023-01-04T05:25:58.708469+00:00
+[2023-01-04 02:25:58,724] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-01-04 02:26:33,611] {processor.py:153} INFO - Started process (PID=48581) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:26:33,612] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:26:33,613] {logging_mixin.py:115} INFO - [2023-01-04 02:26:33,613] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:26:33,624] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:26:33,660] {logging_mixin.py:115} INFO - [2023-01-04 02:26:33,660] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:26:33,707] {logging_mixin.py:115} INFO - [2023-01-04 02:26:33,706] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:26:33.706471+00:00, run_after=2023-01-04T05:26:33.706471+00:00
+[2023-01-04 02:26:33,732] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.126 seconds
+[2023-01-04 02:27:13,842] {processor.py:153} INFO - Started process (PID=48745) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:27:13,844] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:27:13,845] {logging_mixin.py:115} INFO - [2023-01-04 02:27:13,845] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:27:13,856] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:27:13,881] {logging_mixin.py:115} INFO - [2023-01-04 02:27:13,880] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:27:13,905] {logging_mixin.py:115} INFO - [2023-01-04 02:27:13,905] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:27:13.904916+00:00, run_after=2023-01-04T05:27:13.904916+00:00
+[2023-01-04 02:27:13,919] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-01-04 02:27:50,803] {processor.py:153} INFO - Started process (PID=48785) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:27:50,805] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:27:50,806] {logging_mixin.py:115} INFO - [2023-01-04 02:27:50,805] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:27:50,817] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:27:50,845] {logging_mixin.py:115} INFO - [2023-01-04 02:27:50,845] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:27:50,869] {logging_mixin.py:115} INFO - [2023-01-04 02:27:50,869] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:27:50.869316+00:00, run_after=2023-01-04T05:27:50.869316+00:00
+[2023-01-04 02:27:50,884] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2023-01-04 02:28:26,141] {processor.py:153} INFO - Started process (PID=48823) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:28:26,143] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:28:26,144] {logging_mixin.py:115} INFO - [2023-01-04 02:28:26,144] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:28:26,158] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:28:26,180] {logging_mixin.py:115} INFO - [2023-01-04 02:28:26,180] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:28:26,206] {logging_mixin.py:115} INFO - [2023-01-04 02:28:26,205] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:28:26.205570+00:00, run_after=2023-01-04T05:28:26.205570+00:00
+[2023-01-04 02:28:26,220] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2023-01-04 02:29:02,865] {processor.py:153} INFO - Started process (PID=48928) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:29:02,867] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:29:02,869] {logging_mixin.py:115} INFO - [2023-01-04 02:29:02,868] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:29:02,878] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:29:02,900] {logging_mixin.py:115} INFO - [2023-01-04 02:29:02,899] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:29:02,924] {logging_mixin.py:115} INFO - [2023-01-04 02:29:02,924] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:29:02.923682+00:00, run_after=2023-01-04T05:29:02.923682+00:00
+[2023-01-04 02:29:02,937] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-01-04 02:29:43,360] {processor.py:153} INFO - Started process (PID=49006) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:29:43,361] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:29:43,361] {logging_mixin.py:115} INFO - [2023-01-04 02:29:43,361] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:29:43,370] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:29:43,402] {logging_mixin.py:115} INFO - [2023-01-04 02:29:43,401] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:29:43,447] {logging_mixin.py:115} INFO - [2023-01-04 02:29:43,447] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:29:43.446156+00:00, run_after=2023-01-04T05:29:43.446156+00:00
+[2023-01-04 02:29:43,473] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.118 seconds
+[2023-01-04 02:30:24,104] {processor.py:153} INFO - Started process (PID=49903) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:30:24,106] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:30:24,108] {logging_mixin.py:115} INFO - [2023-01-04 02:30:24,107] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:30:24,119] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:30:24,153] {logging_mixin.py:115} INFO - [2023-01-04 02:30:24,153] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:30:24,201] {logging_mixin.py:115} INFO - [2023-01-04 02:30:24,201] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:30:24.200128+00:00, run_after=2023-01-04T05:30:24.200128+00:00
+[2023-01-04 02:30:24,232] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.135 seconds
+[2023-01-04 02:30:59,287] {processor.py:153} INFO - Started process (PID=50061) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:30:59,289] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:30:59,290] {logging_mixin.py:115} INFO - [2023-01-04 02:30:59,290] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:30:59,300] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:30:59,327] {logging_mixin.py:115} INFO - [2023-01-04 02:30:59,327] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:30:59,353] {logging_mixin.py:115} INFO - [2023-01-04 02:30:59,353] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:30:59.353401+00:00, run_after=2023-01-04T05:30:59.353401+00:00
+[2023-01-04 02:30:59,367] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2023-01-04 02:31:35,962] {processor.py:153} INFO - Started process (PID=50103) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:31:35,964] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:31:35,965] {logging_mixin.py:115} INFO - [2023-01-04 02:31:35,964] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:31:35,980] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:31:36,015] {logging_mixin.py:115} INFO - [2023-01-04 02:31:36,014] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:31:36,054] {logging_mixin.py:115} INFO - [2023-01-04 02:31:36,054] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:31:36.053765+00:00, run_after=2023-01-04T05:31:36.053765+00:00
+[2023-01-04 02:31:36,072] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.117 seconds
+[2023-01-04 02:32:12,416] {processor.py:153} INFO - Started process (PID=50155) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:32:12,418] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:32:12,420] {logging_mixin.py:115} INFO - [2023-01-04 02:32:12,419] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:32:12,433] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:32:12,455] {logging_mixin.py:115} INFO - [2023-01-04 02:32:12,455] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:32:12,481] {logging_mixin.py:115} INFO - [2023-01-04 02:32:12,481] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:32:12.481385+00:00, run_after=2023-01-04T05:32:12.481385+00:00
+[2023-01-04 02:32:12,496] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2023-01-04 02:32:52,697] {processor.py:153} INFO - Started process (PID=50237) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:32:52,698] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:32:52,699] {logging_mixin.py:115} INFO - [2023-01-04 02:32:52,699] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:32:52,711] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:32:52,738] {logging_mixin.py:115} INFO - [2023-01-04 02:32:52,737] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:32:52,765] {logging_mixin.py:115} INFO - [2023-01-04 02:32:52,765] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:32:52.765439+00:00, run_after=2023-01-04T05:32:52.765439+00:00
+[2023-01-04 02:32:52,781] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2023-01-04 02:33:58,711] {processor.py:153} INFO - Started process (PID=50340) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:33:58,713] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:33:58,714] {logging_mixin.py:115} INFO - [2023-01-04 02:33:58,714] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:33:58,724] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:33:58,750] {logging_mixin.py:115} INFO - [2023-01-04 02:33:58,750] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:33:58,786] {logging_mixin.py:115} INFO - [2023-01-04 02:33:58,786] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:33:58.785555+00:00, run_after=2023-01-04T05:33:58.785555+00:00
+[2023-01-04 02:33:58,814] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.113 seconds
+[2023-01-04 02:34:34,095] {processor.py:153} INFO - Started process (PID=50453) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:34:34,097] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:34:34,097] {logging_mixin.py:115} INFO - [2023-01-04 02:34:34,097] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:34:34,107] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:34:34,141] {logging_mixin.py:115} INFO - [2023-01-04 02:34:34,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:34:34,179] {logging_mixin.py:115} INFO - [2023-01-04 02:34:34,179] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:34:34.179153+00:00, run_after=2023-01-04T05:34:34.179153+00:00
+[2023-01-04 02:34:34,198] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2023-01-04 02:35:14,265] {processor.py:153} INFO - Started process (PID=50537) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:35:14,267] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:35:14,268] {logging_mixin.py:115} INFO - [2023-01-04 02:35:14,268] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:35:14,283] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:35:14,306] {logging_mixin.py:115} INFO - [2023-01-04 02:35:14,306] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:35:14,332] {logging_mixin.py:115} INFO - [2023-01-04 02:35:14,332] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:35:14.331676+00:00, run_after=2023-01-04T05:35:14.331676+00:00
+[2023-01-04 02:35:14,346] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.092 seconds
+[2023-01-04 02:35:52,392] {processor.py:153} INFO - Started process (PID=50577) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:35:52,394] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:35:52,395] {logging_mixin.py:115} INFO - [2023-01-04 02:35:52,394] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:35:52,406] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:35:52,431] {logging_mixin.py:115} INFO - [2023-01-04 02:35:52,431] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:35:52,456] {logging_mixin.py:115} INFO - [2023-01-04 02:35:52,456] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:35:52.456274+00:00, run_after=2023-01-04T05:35:52.456274+00:00
+[2023-01-04 02:35:52,470] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2023-01-04 02:36:30,298] {processor.py:153} INFO - Started process (PID=50625) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:36:30,303] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:36:30,304] {logging_mixin.py:115} INFO - [2023-01-04 02:36:30,304] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:36:30,329] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:36:30,361] {logging_mixin.py:115} INFO - [2023-01-04 02:36:30,361] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:36:30,392] {logging_mixin.py:115} INFO - [2023-01-04 02:36:30,392] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:36:30.392314+00:00, run_after=2023-01-04T05:36:30.392314+00:00
+[2023-01-04 02:36:30,408] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.116 seconds
+[2023-01-04 02:37:08,955] {processor.py:153} INFO - Started process (PID=50668) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:37:08,957] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:37:08,958] {logging_mixin.py:115} INFO - [2023-01-04 02:37:08,957] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:37:08,965] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:37:08,989] {logging_mixin.py:115} INFO - [2023-01-04 02:37:08,989] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:37:09,016] {logging_mixin.py:115} INFO - [2023-01-04 02:37:09,015] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:37:09.015587+00:00, run_after=2023-01-04T05:37:09.015587+00:00
+[2023-01-04 02:37:09,029] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.079 seconds
+[2023-01-04 02:37:49,903] {processor.py:153} INFO - Started process (PID=50717) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:37:49,906] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:37:49,907] {logging_mixin.py:115} INFO - [2023-01-04 02:37:49,907] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:37:49,918] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:37:49,952] {logging_mixin.py:115} INFO - [2023-01-04 02:37:49,951] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:37:49,990] {logging_mixin.py:115} INFO - [2023-01-04 02:37:49,989] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:37:49.989440+00:00, run_after=2023-01-04T05:37:49.989440+00:00
+[2023-01-04 02:37:50,007] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.110 seconds
+[2023-01-04 02:38:31,047] {processor.py:153} INFO - Started process (PID=50775) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:38:31,049] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:38:31,050] {logging_mixin.py:115} INFO - [2023-01-04 02:38:31,050] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:38:31,063] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:38:31,092] {logging_mixin.py:115} INFO - [2023-01-04 02:38:31,091] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:38:31,117] {logging_mixin.py:115} INFO - [2023-01-04 02:38:31,117] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:38:31.117421+00:00, run_after=2023-01-04T05:38:31.117421+00:00
+[2023-01-04 02:38:31,132] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2023-01-04 02:39:07,062] {processor.py:153} INFO - Started process (PID=50815) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:39:07,064] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:39:07,065] {logging_mixin.py:115} INFO - [2023-01-04 02:39:07,065] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:39:07,079] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:39:07,102] {logging_mixin.py:115} INFO - [2023-01-04 02:39:07,102] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:39:07,127] {logging_mixin.py:115} INFO - [2023-01-04 02:39:07,127] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:39:07.126886+00:00, run_after=2023-01-04T05:39:07.126886+00:00
+[2023-01-04 02:39:07,141] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-01-04 02:39:45,579] {processor.py:153} INFO - Started process (PID=50855) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:39:45,581] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:39:45,582] {logging_mixin.py:115} INFO - [2023-01-04 02:39:45,582] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:39:45,597] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:39:45,625] {logging_mixin.py:115} INFO - [2023-01-04 02:39:45,624] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:39:45,651] {logging_mixin.py:115} INFO - [2023-01-04 02:39:45,651] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:39:45.651380+00:00, run_after=2023-01-04T05:39:45.651380+00:00
+[2023-01-04 02:39:45,666] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2023-01-04 02:40:24,187] {processor.py:153} INFO - Started process (PID=50892) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:40:24,189] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:40:24,190] {logging_mixin.py:115} INFO - [2023-01-04 02:40:24,190] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:40:24,200] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:40:24,228] {logging_mixin.py:115} INFO - [2023-01-04 02:40:24,227] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:40:24,258] {logging_mixin.py:115} INFO - [2023-01-04 02:40:24,258] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:40:24.257935+00:00, run_after=2023-01-04T05:40:24.257935+00:00
+[2023-01-04 02:40:24,274] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.095 seconds
+[2023-01-04 02:41:00,072] {processor.py:153} INFO - Started process (PID=50948) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:41:00,074] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:41:00,074] {logging_mixin.py:115} INFO - [2023-01-04 02:41:00,074] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:41:00,082] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:41:00,105] {logging_mixin.py:115} INFO - [2023-01-04 02:41:00,105] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:41:00,131] {logging_mixin.py:115} INFO - [2023-01-04 02:41:00,131] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:41:00.130634+00:00, run_after=2023-01-04T05:41:00.130634+00:00
+[2023-01-04 02:41:00,144] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-01-04 02:41:41,999] {processor.py:153} INFO - Started process (PID=50994) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:41:42,001] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:41:42,002] {logging_mixin.py:115} INFO - [2023-01-04 02:41:42,002] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:41:42,015] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:41:42,046] {logging_mixin.py:115} INFO - [2023-01-04 02:41:42,046] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:41:42,073] {logging_mixin.py:115} INFO - [2023-01-04 02:41:42,073] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:41:42.072865+00:00, run_after=2023-01-04T05:41:42.072865+00:00
+[2023-01-04 02:41:42,087] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2023-01-04 02:42:22,793] {processor.py:153} INFO - Started process (PID=51055) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:42:22,794] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:42:22,795] {logging_mixin.py:115} INFO - [2023-01-04 02:42:22,795] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:42:22,803] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:42:22,828] {logging_mixin.py:115} INFO - [2023-01-04 02:42:22,828] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:42:22,856] {logging_mixin.py:115} INFO - [2023-01-04 02:42:22,856] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:42:22.855944+00:00, run_after=2023-01-04T05:42:22.855944+00:00
+[2023-01-04 02:42:22,872] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-01-04 02:42:59,229] {processor.py:153} INFO - Started process (PID=51098) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:42:59,230] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:42:59,230] {logging_mixin.py:115} INFO - [2023-01-04 02:42:59,230] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:42:59,239] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:42:59,263] {logging_mixin.py:115} INFO - [2023-01-04 02:42:59,263] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:42:59,291] {logging_mixin.py:115} INFO - [2023-01-04 02:42:59,290] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:42:59.290363+00:00, run_after=2023-01-04T05:42:59.290363+00:00
+[2023-01-04 02:42:59,306] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-01-04 02:43:38,137] {processor.py:153} INFO - Started process (PID=51139) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:43:38,145] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:43:38,146] {logging_mixin.py:115} INFO - [2023-01-04 02:43:38,146] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:43:38,158] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:43:38,214] {logging_mixin.py:115} INFO - [2023-01-04 02:43:38,214] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:43:38,247] {logging_mixin.py:115} INFO - [2023-01-04 02:43:38,247] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:43:38.246735+00:00, run_after=2023-01-04T05:43:38.246735+00:00
+[2023-01-04 02:43:38,272] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.140 seconds
+[2023-01-04 02:44:14,285] {processor.py:153} INFO - Started process (PID=51190) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:44:14,286] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:44:14,287] {logging_mixin.py:115} INFO - [2023-01-04 02:44:14,287] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:44:14,298] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:44:14,327] {logging_mixin.py:115} INFO - [2023-01-04 02:44:14,327] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:44:14,363] {logging_mixin.py:115} INFO - [2023-01-04 02:44:14,363] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:44:14.362499+00:00, run_after=2023-01-04T05:44:14.362499+00:00
+[2023-01-04 02:44:14,382] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.103 seconds
+[2023-01-04 02:44:53,000] {processor.py:153} INFO - Started process (PID=51260) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:44:53,002] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:44:53,003] {logging_mixin.py:115} INFO - [2023-01-04 02:44:53,003] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:44:53,018] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:44:53,041] {logging_mixin.py:115} INFO - [2023-01-04 02:44:53,041] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:44:53,065] {logging_mixin.py:115} INFO - [2023-01-04 02:44:53,065] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:44:53.065315+00:00, run_after=2023-01-04T05:44:53.065315+00:00
+[2023-01-04 02:44:53,079] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2023-01-04 02:45:28,879] {processor.py:153} INFO - Started process (PID=51296) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:45:28,880] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:45:28,881] {logging_mixin.py:115} INFO - [2023-01-04 02:45:28,881] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:45:28,890] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:45:28,915] {logging_mixin.py:115} INFO - [2023-01-04 02:45:28,915] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:45:28,942] {logging_mixin.py:115} INFO - [2023-01-04 02:45:28,942] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:45:28.941801+00:00, run_after=2023-01-04T05:45:28.941801+00:00
+[2023-01-04 02:45:28,956] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-01-04 02:46:04,160] {processor.py:153} INFO - Started process (PID=51348) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:46:04,161] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:46:04,162] {logging_mixin.py:115} INFO - [2023-01-04 02:46:04,162] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:46:04,173] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:46:04,198] {logging_mixin.py:115} INFO - [2023-01-04 02:46:04,198] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:46:04,224] {logging_mixin.py:115} INFO - [2023-01-04 02:46:04,223] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:46:04.223507+00:00, run_after=2023-01-04T05:46:04.223507+00:00
+[2023-01-04 02:46:04,239] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.085 seconds
+[2023-01-04 02:46:45,859] {processor.py:153} INFO - Started process (PID=51407) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:46:45,861] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:46:45,863] {logging_mixin.py:115} INFO - [2023-01-04 02:46:45,862] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:46:45,872] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:46:45,900] {logging_mixin.py:115} INFO - [2023-01-04 02:46:45,900] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:46:45,927] {logging_mixin.py:115} INFO - [2023-01-04 02:46:45,927] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:46:45.926940+00:00, run_after=2023-01-04T05:46:45.926940+00:00
+[2023-01-04 02:46:45,942] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.095 seconds
+[2023-01-04 02:47:26,092] {processor.py:153} INFO - Started process (PID=51446) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:47:26,094] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:47:26,095] {logging_mixin.py:115} INFO - [2023-01-04 02:47:26,095] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:47:26,108] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:47:26,133] {logging_mixin.py:115} INFO - [2023-01-04 02:47:26,133] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:47:26,158] {logging_mixin.py:115} INFO - [2023-01-04 02:47:26,158] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:47:26.158254+00:00, run_after=2023-01-04T05:47:26.158254+00:00
+[2023-01-04 02:47:26,172] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-01-04 02:48:04,069] {processor.py:153} INFO - Started process (PID=51490) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:48:04,071] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:48:04,072] {logging_mixin.py:115} INFO - [2023-01-04 02:48:04,071] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:48:04,080] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:48:04,106] {logging_mixin.py:115} INFO - [2023-01-04 02:48:04,106] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:48:04,133] {logging_mixin.py:115} INFO - [2023-01-04 02:48:04,133] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:48:04.133154+00:00, run_after=2023-01-04T05:48:04.133154+00:00
+[2023-01-04 02:48:04,147] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-01-04 02:48:38,766] {processor.py:153} INFO - Started process (PID=51539) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:48:38,773] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:48:38,774] {logging_mixin.py:115} INFO - [2023-01-04 02:48:38,774] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:48:38,784] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:48:38,815] {logging_mixin.py:115} INFO - [2023-01-04 02:48:38,815] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:48:38,847] {logging_mixin.py:115} INFO - [2023-01-04 02:48:38,847] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:48:38.846606+00:00, run_after=2023-01-04T05:48:38.846606+00:00
+[2023-01-04 02:48:38,867] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.107 seconds
+[2023-01-04 02:49:16,762] {processor.py:153} INFO - Started process (PID=51581) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:49:16,764] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:49:16,765] {logging_mixin.py:115} INFO - [2023-01-04 02:49:16,765] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:49:16,775] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:49:16,807] {logging_mixin.py:115} INFO - [2023-01-04 02:49:16,807] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:49:16,847] {logging_mixin.py:115} INFO - [2023-01-04 02:49:16,846] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:49:16.846179+00:00, run_after=2023-01-04T05:49:16.846179+00:00
+[2023-01-04 02:49:16,874] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.118 seconds
+[2023-01-04 02:49:54,393] {processor.py:153} INFO - Started process (PID=51621) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:49:54,394] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:49:54,395] {logging_mixin.py:115} INFO - [2023-01-04 02:49:54,395] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:49:54,442] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:49:54,522] {logging_mixin.py:115} INFO - [2023-01-04 02:49:54,522] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:49:54,877] {logging_mixin.py:115} INFO - [2023-01-04 02:49:54,877] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:49:54.858700+00:00, run_after=2023-01-04T05:49:54.858700+00:00
+[2023-01-04 02:49:54,979] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.591 seconds
+[2023-01-04 02:50:34,783] {processor.py:153} INFO - Started process (PID=51660) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:50:34,784] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:50:34,784] {logging_mixin.py:115} INFO - [2023-01-04 02:50:34,784] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:50:34,793] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:50:34,818] {logging_mixin.py:115} INFO - [2023-01-04 02:50:34,818] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:50:34,846] {logging_mixin.py:115} INFO - [2023-01-04 02:50:34,846] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:50:34.846058+00:00, run_after=2023-01-04T05:50:34.846058+00:00
+[2023-01-04 02:50:34,864] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-01-04 02:51:13,939] {processor.py:153} INFO - Started process (PID=51702) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:51:13,941] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:51:13,942] {logging_mixin.py:115} INFO - [2023-01-04 02:51:13,942] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:51:13,949] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:51:13,976] {logging_mixin.py:115} INFO - [2023-01-04 02:51:13,975] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:51:14,010] {logging_mixin.py:115} INFO - [2023-01-04 02:51:14,010] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:51:14.010221+00:00, run_after=2023-01-04T05:51:14.010221+00:00
+[2023-01-04 02:51:14,030] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.098 seconds
+[2023-01-04 02:51:58,605] {processor.py:153} INFO - Started process (PID=51750) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:51:58,607] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:51:58,608] {logging_mixin.py:115} INFO - [2023-01-04 02:51:58,608] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:51:58,616] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:51:58,646] {logging_mixin.py:115} INFO - [2023-01-04 02:51:58,646] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:51:58,691] {logging_mixin.py:115} INFO - [2023-01-04 02:51:58,691] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:51:58.691107+00:00, run_after=2023-01-04T05:51:58.691107+00:00
+[2023-01-04 02:51:58,713] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.114 seconds
+[2023-01-04 02:52:34,393] {processor.py:153} INFO - Started process (PID=51786) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:52:34,394] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:52:34,395] {logging_mixin.py:115} INFO - [2023-01-04 02:52:34,395] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:52:34,403] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:52:34,428] {logging_mixin.py:115} INFO - [2023-01-04 02:52:34,428] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:52:34,455] {logging_mixin.py:115} INFO - [2023-01-04 02:52:34,454] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:52:34.454519+00:00, run_after=2023-01-04T05:52:34.454519+00:00
+[2023-01-04 02:52:34,471] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2023-01-04 02:53:10,775] {processor.py:153} INFO - Started process (PID=51823) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:53:10,776] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:53:10,777] {logging_mixin.py:115} INFO - [2023-01-04 02:53:10,777] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:53:10,785] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:53:10,839] {logging_mixin.py:115} INFO - [2023-01-04 02:53:10,839] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:53:10,868] {logging_mixin.py:115} INFO - [2023-01-04 02:53:10,867] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:53:10.867524+00:00, run_after=2023-01-04T05:53:10.867524+00:00
+[2023-01-04 02:53:10,898] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.129 seconds
+[2023-01-04 02:53:45,586] {processor.py:153} INFO - Started process (PID=51863) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:53:45,587] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:53:45,588] {logging_mixin.py:115} INFO - [2023-01-04 02:53:45,588] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:53:45,596] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:53:45,621] {logging_mixin.py:115} INFO - [2023-01-04 02:53:45,621] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:53:45,648] {logging_mixin.py:115} INFO - [2023-01-04 02:53:45,648] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:53:45.647915+00:00, run_after=2023-01-04T05:53:45.647915+00:00
+[2023-01-04 02:53:45,664] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-01-04 02:54:22,880] {processor.py:153} INFO - Started process (PID=51902) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:54:22,882] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:54:22,884] {logging_mixin.py:115} INFO - [2023-01-04 02:54:22,884] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:54:22,951] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:54:23,204] {logging_mixin.py:115} INFO - [2023-01-04 02:54:23,204] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:54:23,256] {logging_mixin.py:115} INFO - [2023-01-04 02:54:23,255] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:54:23.255436+00:00, run_after=2023-01-04T05:54:23.255436+00:00
+[2023-01-04 02:54:23,272] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.466 seconds
+[2023-01-04 02:55:06,060] {processor.py:153} INFO - Started process (PID=51946) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:55:06,061] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:55:06,062] {logging_mixin.py:115} INFO - [2023-01-04 02:55:06,062] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:55:06,086] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:55:06,113] {logging_mixin.py:115} INFO - [2023-01-04 02:55:06,113] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:55:06,143] {logging_mixin.py:115} INFO - [2023-01-04 02:55:06,142] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:55:06.142409+00:00, run_after=2023-01-04T05:55:06.142409+00:00
+[2023-01-04 02:55:06,159] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.105 seconds
+[2023-01-04 02:55:48,742] {processor.py:153} INFO - Started process (PID=51981) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:55:48,743] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 02:55:48,744] {logging_mixin.py:115} INFO - [2023-01-04 02:55:48,744] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:55:48,756] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 02:55:48,849] {logging_mixin.py:115} INFO - [2023-01-04 02:55:48,848] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 02:55:49,160] {logging_mixin.py:115} INFO - [2023-01-04 02:55:49,159] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T01:55:49.071770+00:00, run_after=2023-01-04T05:55:49.071770+00:00
+[2023-01-04 02:55:49,195] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.458 seconds
+[2023-01-04 03:01:06,871] {processor.py:153} INFO - Started process (PID=52046) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:01:07,370] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 03:01:07,371] {logging_mixin.py:115} INFO - [2023-01-04 03:01:07,370] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:01:07,692] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:01:08,056] {logging_mixin.py:115} INFO - [2023-01-04 03:01:08,056] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 03:01:08,617] {logging_mixin.py:115} INFO - [2023-01-04 03:01:08,610] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T02:01:08.186187+00:00, run_after=2023-01-04T06:01:08.186187+00:00
+[2023-01-04 03:01:16,823] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 9.997 seconds
+[2023-01-04 03:05:30,082] {processor.py:153} INFO - Started process (PID=52465) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:05:30,106] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 03:05:30,107] {logging_mixin.py:115} INFO - [2023-01-04 03:05:30,107] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:05:30,126] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:05:30,153] {logging_mixin.py:115} INFO - [2023-01-04 03:05:30,152] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 03:05:30,179] {logging_mixin.py:115} INFO - [2023-01-04 03:05:30,179] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T02:05:30.179069+00:00, run_after=2023-01-04T06:05:30.179069+00:00
+[2023-01-04 03:05:30,197] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.123 seconds
+[2023-01-04 03:42:09,933] {processor.py:153} INFO - Started process (PID=57742) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:42:11,025] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 03:42:11,892] {logging_mixin.py:115} INFO - [2023-01-04 03:42:11,875] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:42:12,491] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:42:12,881] {logging_mixin.py:115} INFO - [2023-01-04 03:42:12,878] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 03:42:12,946] {logging_mixin.py:115} INFO - [2023-01-04 03:42:12,946] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T02:42:12.945570+00:00, run_after=2023-01-04T06:42:12.945570+00:00
+[2023-01-04 03:42:12,985] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 3.094 seconds
+[2023-01-04 03:46:38,929] {processor.py:153} INFO - Started process (PID=58237) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:46:38,930] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 03:46:38,931] {logging_mixin.py:115} INFO - [2023-01-04 03:46:38,930] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:46:38,939] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 03:46:38,962] {logging_mixin.py:115} INFO - [2023-01-04 03:46:38,962] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 03:46:38,995] {logging_mixin.py:115} INFO - [2023-01-04 03:46:38,994] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T02:46:38.994368+00:00, run_after=2023-01-04T06:46:38.994368+00:00
+[2023-01-04 03:46:39,032] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.108 seconds
+[2023-01-04 04:02:08,495] {processor.py:153} INFO - Started process (PID=60187) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:02:08,547] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:02:08,548] {logging_mixin.py:115} INFO - [2023-01-04 04:02:08,548] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:02:08,598] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:02:08,789] {logging_mixin.py:115} INFO - [2023-01-04 04:02:08,788] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:02:08,814] {logging_mixin.py:115} INFO - [2023-01-04 04:02:08,814] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:02:08.814110+00:00, run_after=2023-01-04T07:02:08.814110+00:00
+[2023-01-04 04:02:09,009] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.519 seconds
+[2023-01-04 04:10:11,927] {processor.py:153} INFO - Started process (PID=61695) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:10:11,929] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:10:11,930] {logging_mixin.py:115} INFO - [2023-01-04 04:10:11,930] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:10:11,941] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:10:11,974] {logging_mixin.py:115} INFO - [2023-01-04 04:10:11,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:10:12,005] {logging_mixin.py:115} INFO - [2023-01-04 04:10:12,005] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:10:12.004627+00:00, run_after=2023-01-04T07:10:12.004627+00:00
+[2023-01-04 04:10:12,028] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.106 seconds
+[2023-01-04 04:11:08,433] {processor.py:153} INFO - Started process (PID=62002) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:11:08,435] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:11:08,436] {logging_mixin.py:115} INFO - [2023-01-04 04:11:08,436] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:11:08,447] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:11:08,470] {logging_mixin.py:115} INFO - [2023-01-04 04:11:08,470] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:11:08,488] {logging_mixin.py:115} INFO - [2023-01-04 04:11:08,488] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:11:08.487942+00:00, run_after=2023-01-04T07:11:08.487942+00:00
+[2023-01-04 04:11:08,504] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-01-04 04:11:55,796] {processor.py:153} INFO - Started process (PID=62266) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:11:55,799] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:11:55,801] {logging_mixin.py:115} INFO - [2023-01-04 04:11:55,800] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:11:55,817] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:11:55,850] {logging_mixin.py:115} INFO - [2023-01-04 04:11:55,850] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:11:55,876] {logging_mixin.py:115} INFO - [2023-01-04 04:11:55,876] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:11:55.876289+00:00, run_after=2023-01-04T07:11:55.876289+00:00
+[2023-01-04 04:11:55,901] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.113 seconds
+[2023-01-04 04:24:56,442] {processor.py:153} INFO - Started process (PID=63866) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:24:56,444] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:24:56,446] {logging_mixin.py:115} INFO - [2023-01-04 04:24:56,446] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:24:56,459] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:24:56,504] {logging_mixin.py:115} INFO - [2023-01-04 04:24:56,504] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:24:56,541] {logging_mixin.py:115} INFO - [2023-01-04 04:24:56,540] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:24:56.540365+00:00, run_after=2023-01-04T07:24:56.540365+00:00
+[2023-01-04 04:24:56,569] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.134 seconds
+[2023-01-04 04:27:38,794] {processor.py:153} INFO - Started process (PID=64279) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:27:38,795] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:27:38,796] {logging_mixin.py:115} INFO - [2023-01-04 04:27:38,796] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:27:38,809] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:27:38,839] {logging_mixin.py:115} INFO - [2023-01-04 04:27:38,839] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:27:38,870] {logging_mixin.py:115} INFO - [2023-01-04 04:27:38,869] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:27:38.869490+00:00, run_after=2023-01-04T07:27:38.869490+00:00
+[2023-01-04 04:27:38,891] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.102 seconds
+[2023-01-04 04:29:51,934] {processor.py:153} INFO - Started process (PID=64649) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:29:51,935] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:29:51,936] {logging_mixin.py:115} INFO - [2023-01-04 04:29:51,936] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:29:51,945] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:29:51,971] {logging_mixin.py:115} INFO - [2023-01-04 04:29:51,971] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:29:51,991] {logging_mixin.py:115} INFO - [2023-01-04 04:29:51,991] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:29:51.990844+00:00, run_after=2023-01-04T07:29:51.990844+00:00
+[2023-01-04 04:29:52,007] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
+[2023-01-04 04:31:17,772] {processor.py:153} INFO - Started process (PID=64902) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:31:18,128] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 04:31:18,238] {logging_mixin.py:115} INFO - [2023-01-04 04:31:18,237] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:31:20,899] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 04:31:20,949] {logging_mixin.py:115} INFO - [2023-01-04 04:31:20,949] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 04:31:20,971] {logging_mixin.py:115} INFO - [2023-01-04 04:31:20,971] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T03:31:20.971179+00:00, run_after=2023-01-04T07:31:20.971179+00:00
+[2023-01-04 04:31:20,992] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 3.984 seconds
+[2023-01-04 05:02:11,117] {processor.py:153} INFO - Started process (PID=3698) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:02:11,120] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:02:11,121] {logging_mixin.py:115} INFO - [2023-01-04 05:02:11,121] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:02:11,162] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:02:11,185] {logging_mixin.py:115} INFO - [2023-01-04 05:02:11,185] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:02:11,210] {logging_mixin.py:115} INFO - [2023-01-04 05:02:11,210] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:02:11.209808+00:00, run_after=2023-01-04T08:02:11.209808+00:00
+[2023-01-04 05:02:11,224] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.112 seconds
+[2023-01-04 05:02:47,222] {processor.py:153} INFO - Started process (PID=3870) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:02:47,224] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:02:47,225] {logging_mixin.py:115} INFO - [2023-01-04 05:02:47,225] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:02:47,239] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:02:47,261] {logging_mixin.py:115} INFO - [2023-01-04 05:02:47,261] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:02:47,286] {logging_mixin.py:115} INFO - [2023-01-04 05:02:47,286] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:02:47.285674+00:00, run_after=2023-01-04T08:02:47.285674+00:00
+[2023-01-04 05:02:47,299] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-01-04 05:03:23,510] {processor.py:153} INFO - Started process (PID=4047) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:03:23,511] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:03:23,512] {logging_mixin.py:115} INFO - [2023-01-04 05:03:23,511] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:03:23,519] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:03:23,540] {logging_mixin.py:115} INFO - [2023-01-04 05:03:23,540] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:03:23,564] {logging_mixin.py:115} INFO - [2023-01-04 05:03:23,564] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:03:23.563658+00:00, run_after=2023-01-04T08:03:23.563658+00:00
+[2023-01-04 05:03:23,576] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-01-04 05:03:58,857] {processor.py:153} INFO - Started process (PID=4213) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:03:58,859] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:03:58,860] {logging_mixin.py:115} INFO - [2023-01-04 05:03:58,860] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:03:58,874] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:03:58,898] {logging_mixin.py:115} INFO - [2023-01-04 05:03:58,898] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:03:58,922] {logging_mixin.py:115} INFO - [2023-01-04 05:03:58,922] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:03:58.921939+00:00, run_after=2023-01-04T08:03:58.921939+00:00
+[2023-01-04 05:03:58,936] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-01-04 05:04:35,518] {processor.py:153} INFO - Started process (PID=4392) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:04:35,520] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:04:35,522] {logging_mixin.py:115} INFO - [2023-01-04 05:04:35,522] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:04:35,537] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:04:35,559] {logging_mixin.py:115} INFO - [2023-01-04 05:04:35,559] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:04:35,583] {logging_mixin.py:115} INFO - [2023-01-04 05:04:35,583] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:04:35.582845+00:00, run_after=2023-01-04T08:04:35.582845+00:00
+[2023-01-04 05:04:35,597] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2023-01-04 05:05:15,609] {processor.py:153} INFO - Started process (PID=4627) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:05:15,611] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:05:15,613] {logging_mixin.py:115} INFO - [2023-01-04 05:05:15,613] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:05:15,623] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:05:15,647] {logging_mixin.py:115} INFO - [2023-01-04 05:05:15,646] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:05:15,672] {logging_mixin.py:115} INFO - [2023-01-04 05:05:15,672] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:05:15.672142+00:00, run_after=2023-01-04T08:05:15.672142+00:00
+[2023-01-04 05:05:15,687] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-01-04 05:05:53,006] {processor.py:153} INFO - Started process (PID=4821) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:05:53,007] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:05:53,008] {logging_mixin.py:115} INFO - [2023-01-04 05:05:53,008] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:05:53,016] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:05:53,039] {logging_mixin.py:115} INFO - [2023-01-04 05:05:53,039] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:05:53,064] {logging_mixin.py:115} INFO - [2023-01-04 05:05:53,064] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:05:53.063607+00:00, run_after=2023-01-04T08:05:53.063607+00:00
+[2023-01-04 05:05:53,078] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.077 seconds
+[2023-01-04 05:06:30,517] {processor.py:153} INFO - Started process (PID=4996) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:06:30,519] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:06:30,521] {logging_mixin.py:115} INFO - [2023-01-04 05:06:30,521] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:06:30,531] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:06:30,561] {logging_mixin.py:115} INFO - [2023-01-04 05:06:30,560] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:06:30,588] {logging_mixin.py:115} INFO - [2023-01-04 05:06:30,587] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:06:30.587503+00:00, run_after=2023-01-04T08:06:30.587503+00:00
+[2023-01-04 05:06:30,602] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.097 seconds
+[2023-01-04 05:07:44,299] {processor.py:153} INFO - Started process (PID=5362) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:07:44,301] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:07:44,302] {logging_mixin.py:115} INFO - [2023-01-04 05:07:44,302] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:07:44,313] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:07:44,344] {logging_mixin.py:115} INFO - [2023-01-04 05:07:44,344] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:07:44,377] {logging_mixin.py:115} INFO - [2023-01-04 05:07:44,377] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:07:44.377411+00:00, run_after=2023-01-04T08:07:44.377411+00:00
+[2023-01-04 05:07:44,396] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.103 seconds
+[2023-01-04 05:08:20,824] {processor.py:153} INFO - Started process (PID=5546) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:08:20,825] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:08:20,827] {logging_mixin.py:115} INFO - [2023-01-04 05:08:20,827] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:08:20,836] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:08:20,858] {logging_mixin.py:115} INFO - [2023-01-04 05:08:20,858] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:08:20,883] {logging_mixin.py:115} INFO - [2023-01-04 05:08:20,882] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:08:20.882651+00:00, run_after=2023-01-04T08:08:20.882651+00:00
+[2023-01-04 05:08:20,897] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.080 seconds
+[2023-01-04 05:09:00,798] {processor.py:153} INFO - Started process (PID=5759) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:09:00,800] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:09:00,800] {logging_mixin.py:115} INFO - [2023-01-04 05:09:00,800] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:09:00,809] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:09:00,834] {logging_mixin.py:115} INFO - [2023-01-04 05:09:00,834] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:09:00,862] {logging_mixin.py:115} INFO - [2023-01-04 05:09:00,862] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:09:00.861642+00:00, run_after=2023-01-04T08:09:00.861642+00:00
+[2023-01-04 05:09:00,877] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.086 seconds
+[2023-01-04 05:09:38,324] {processor.py:153} INFO - Started process (PID=5945) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:09:38,326] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:09:38,326] {logging_mixin.py:115} INFO - [2023-01-04 05:09:38,326] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:09:38,334] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:09:38,360] {logging_mixin.py:115} INFO - [2023-01-04 05:09:38,360] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:09:38,388] {logging_mixin.py:115} INFO - [2023-01-04 05:09:38,388] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:09:38.388268+00:00, run_after=2023-01-04T08:09:38.388268+00:00
+[2023-01-04 05:09:38,407] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.089 seconds
+[2023-01-04 05:10:15,945] {processor.py:153} INFO - Started process (PID=6130) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:10:15,947] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:10:15,948] {logging_mixin.py:115} INFO - [2023-01-04 05:10:15,948] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:10:15,961] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:10:15,985] {logging_mixin.py:115} INFO - [2023-01-04 05:10:15,984] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:10:16,011] {logging_mixin.py:115} INFO - [2023-01-04 05:10:16,011] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:10:16.011139+00:00, run_after=2023-01-04T08:10:16.011139+00:00
+[2023-01-04 05:10:16,030] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.094 seconds
+[2023-01-04 05:11:46,262] {processor.py:153} INFO - Started process (PID=6603) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:11:46,273] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 05:11:46,274] {logging_mixin.py:115} INFO - [2023-01-04 05:11:46,274] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:11:46,284] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 05:11:46,310] {logging_mixin.py:115} INFO - [2023-01-04 05:11:46,309] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 05:11:46,339] {logging_mixin.py:115} INFO - [2023-01-04 05:11:46,339] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T04:11:46.338656+00:00, run_after=2023-01-04T08:11:46.338656+00:00
+[2023-01-04 05:11:46,356] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2023-01-04 06:01:28,503] {processor.py:153} INFO - Started process (PID=15667) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 06:01:28,522] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 06:01:28,523] {logging_mixin.py:115} INFO - [2023-01-04 06:01:28,522] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 06:01:28,531] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 06:01:28,555] {logging_mixin.py:115} INFO - [2023-01-04 06:01:28,555] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 06:01:28,577] {logging_mixin.py:115} INFO - [2023-01-04 06:01:28,576] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T05:01:28.576533+00:00, run_after=2023-01-04T09:01:28.576533+00:00
+[2023-01-04 06:01:28,633] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.135 seconds
+[2023-01-04 06:12:27,903] {processor.py:153} INFO - Started process (PID=17685) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 06:12:27,905] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 06:12:27,906] {logging_mixin.py:115} INFO - [2023-01-04 06:12:27,906] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 06:12:27,915] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 06:12:27,940] {logging_mixin.py:115} INFO - [2023-01-04 06:12:27,939] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 06:12:27,961] {logging_mixin.py:115} INFO - [2023-01-04 06:12:27,961] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T05:12:27.961139+00:00, run_after=2023-01-04T09:12:27.961139+00:00
+[2023-01-04 06:12:27,978] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.082 seconds
+[2023-01-04 12:30:44,402] {processor.py:153} INFO - Started process (PID=23945) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 12:30:44,404] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 12:30:44,405] {logging_mixin.py:115} INFO - [2023-01-04 12:30:44,404] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 12:30:44,412] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 12:30:44,432] {logging_mixin.py:115} INFO - [2023-01-04 12:30:44,432] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 12:30:44,451] {logging_mixin.py:115} INFO - [2023-01-04 12:30:44,450] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T11:30:44.450515+00:00, run_after=2023-01-04T15:30:44.450515+00:00
+[2023-01-04 12:30:44,463] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.065 seconds
+[2023-01-04 13:17:39,731] {processor.py:153} INFO - Started process (PID=28766) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:17:39,739] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 13:17:39,740] {logging_mixin.py:115} INFO - [2023-01-04 13:17:39,739] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:17:39,749] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:17:39,774] {logging_mixin.py:115} INFO - [2023-01-04 13:17:39,774] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 13:17:39,795] {logging_mixin.py:115} INFO - [2023-01-04 13:17:39,795] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T12:17:39.794949+00:00, run_after=2023-01-04T16:17:39.794949+00:00
+[2023-01-04 13:17:39,809] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.083 seconds
+[2023-01-04 13:30:32,442] {processor.py:153} INFO - Started process (PID=30170) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:30:32,491] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 13:30:32,492] {logging_mixin.py:115} INFO - [2023-01-04 13:30:32,492] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:30:32,500] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:30:32,524] {logging_mixin.py:115} INFO - [2023-01-04 13:30:32,524] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 13:30:32,545] {logging_mixin.py:115} INFO - [2023-01-04 13:30:32,545] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T12:30:32.545176+00:00, run_after=2023-01-04T16:30:32.545176+00:00
+[2023-01-04 13:30:32,559] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.122 seconds
+[2023-01-04 13:43:06,730] {processor.py:153} INFO - Started process (PID=31559) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:43:06,745] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 13:43:06,746] {logging_mixin.py:115} INFO - [2023-01-04 13:43:06,746] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:43:06,754] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 13:43:06,780] {logging_mixin.py:115} INFO - [2023-01-04 13:43:06,779] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 13:43:06,799] {logging_mixin.py:115} INFO - [2023-01-04 13:43:06,799] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T12:43:06.799394+00:00, run_after=2023-01-04T16:43:06.799394+00:00
+[2023-01-04 13:43:06,814] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2023-01-04 14:11:55,854] {processor.py:153} INFO - Started process (PID=34640) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:11:55,856] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:11:55,857] {logging_mixin.py:115} INFO - [2023-01-04 14:11:55,857] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:11:55,866] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:11:55,889] {logging_mixin.py:115} INFO - [2023-01-04 14:11:55,888] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:11:55,908] {logging_mixin.py:115} INFO - [2023-01-04 14:11:55,907] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:11:55.907487+00:00, run_after=2023-01-04T17:11:55.907487+00:00
+[2023-01-04 14:11:55,922] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.073 seconds
+[2023-01-04 14:13:08,050] {processor.py:153} INFO - Started process (PID=34774) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:13:08,051] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:13:08,052] {logging_mixin.py:115} INFO - [2023-01-04 14:13:08,052] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:13:08,091] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:13:08,141] {logging_mixin.py:115} INFO - [2023-01-04 14:13:08,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:13:08,235] {logging_mixin.py:115} INFO - [2023-01-04 14:13:08,235] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:13:08.235070+00:00, run_after=2023-01-04T17:13:08.235070+00:00
+[2023-01-04 14:13:08,249] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.205 seconds
+[2023-01-04 14:13:57,411] {processor.py:153} INFO - Started process (PID=34870) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:13:57,412] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:13:57,413] {logging_mixin.py:115} INFO - [2023-01-04 14:13:57,413] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:13:57,421] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:13:57,443] {logging_mixin.py:115} INFO - [2023-01-04 14:13:57,443] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:13:57,463] {logging_mixin.py:115} INFO - [2023-01-04 14:13:57,462] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:13:57.462446+00:00, run_after=2023-01-04T17:13:57.462446+00:00
+[2023-01-04 14:13:57,475] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
+[2023-01-04 14:15:00,521] {processor.py:153} INFO - Started process (PID=34969) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:15:00,550] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:15:00,550] {logging_mixin.py:115} INFO - [2023-01-04 14:15:00,550] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:15:00,721] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:15:01,621] {logging_mixin.py:115} INFO - [2023-01-04 14:15:01,621] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:15:01,814] {logging_mixin.py:115} INFO - [2023-01-04 14:15:01,814] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:15:01.813540+00:00, run_after=2023-01-04T17:15:01.813540+00:00
+[2023-01-04 14:15:01,834] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 1.324 seconds
+[2023-01-04 14:15:49,948] {processor.py:153} INFO - Started process (PID=35059) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:15:49,949] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:15:49,950] {logging_mixin.py:115} INFO - [2023-01-04 14:15:49,950] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:15:49,958] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:15:49,980] {logging_mixin.py:115} INFO - [2023-01-04 14:15:49,980] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:15:50,000] {logging_mixin.py:115} INFO - [2023-01-04 14:15:50,000] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:15:50.000037+00:00, run_after=2023-01-04T17:15:50.000037+00:00
+[2023-01-04 14:15:50,013] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.070 seconds
+[2023-01-04 14:16:35,352] {processor.py:153} INFO - Started process (PID=35155) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:16:35,376] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:16:35,377] {logging_mixin.py:115} INFO - [2023-01-04 14:16:35,377] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:16:35,385] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:16:35,426] {logging_mixin.py:115} INFO - [2023-01-04 14:16:35,426] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:16:35,473] {logging_mixin.py:115} INFO - [2023-01-04 14:16:35,473] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:16:35.473236+00:00, run_after=2023-01-04T17:16:35.473236+00:00
+[2023-01-04 14:16:35,589] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.241 seconds
+[2023-01-04 14:17:32,230] {processor.py:153} INFO - Started process (PID=35247) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:17:32,240] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:17:32,241] {logging_mixin.py:115} INFO - [2023-01-04 14:17:32,241] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:17:32,256] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:17:32,294] {logging_mixin.py:115} INFO - [2023-01-04 14:17:32,294] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:17:32,320] {logging_mixin.py:115} INFO - [2023-01-04 14:17:32,320] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:17:32.319441+00:00, run_after=2023-01-04T17:17:32.319441+00:00
+[2023-01-04 14:17:32,358] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.137 seconds
+[2023-01-04 14:18:17,552] {processor.py:153} INFO - Started process (PID=35471) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:18:17,562] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:18:17,564] {logging_mixin.py:115} INFO - [2023-01-04 14:18:17,563] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:18:17,583] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:18:17,694] {logging_mixin.py:115} INFO - [2023-01-04 14:18:17,694] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:18:17,747] {logging_mixin.py:115} INFO - [2023-01-04 14:18:17,747] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:18:17.747069+00:00, run_after=2023-01-04T17:18:17.747069+00:00
+[2023-01-04 14:18:17,764] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.230 seconds
+[2023-01-04 14:19:14,836] {processor.py:153} INFO - Started process (PID=35749) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:19:14,862] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:19:14,863] {logging_mixin.py:115} INFO - [2023-01-04 14:19:14,862] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:19:14,871] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:19:14,896] {logging_mixin.py:115} INFO - [2023-01-04 14:19:14,895] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:19:14,927] {logging_mixin.py:115} INFO - [2023-01-04 14:19:14,927] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:19:14.926758+00:00, run_after=2023-01-04T17:19:14.926758+00:00
+[2023-01-04 14:19:14,949] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.119 seconds
+[2023-01-04 14:19:54,889] {processor.py:153} INFO - Started process (PID=35861) to work on /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:19:54,891] {processor.py:641} INFO - Processing file /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-01-04 14:19:54,893] {logging_mixin.py:115} INFO - [2023-01-04 14:19:54,893] {dagbag.py:507} INFO - Filling up the DagBag from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:19:54,907] {processor.py:651} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py
+[2023-01-04 14:19:54,928] {logging_mixin.py:115} INFO - [2023-01-04 14:19:54,928] {dag.py:2379} INFO - Sync 1 DAGs
+[2023-01-04 14:19:54,945] {logging_mixin.py:115} INFO - [2023-01-04 14:19:54,945] {dag.py:2927} INFO - Setting next_dagrun for latest_only to 2023-01-04T13:19:54.944820+00:00, run_after=2023-01-04T17:19:54.944820+00:00
+[2023-01-04 14:19:54,958] {processor.py:161} INFO - Processing /home/xuxon/Documents/airflow_case/venv/lib/python3.8/site-packages/airflow/example_dags/example_latest_only.py took 0.078 seconds
