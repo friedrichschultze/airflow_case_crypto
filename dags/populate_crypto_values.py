@@ -43,11 +43,11 @@ with DAG(
 
         for crypto_id in crypto_id_list:
             url = f'{url_base}{crypto_id}/history?date={data_interval_end}'
-            r = requests.get(url)
             get_crypto_bool = True 
             get_crypto_tries = 0
 
             while get_crypto_bool:
+                r = requests.get(url)
                 if r.status_code == 200:
                     get_crypto_bool = False
                     body = json.loads(r.content.decode())
@@ -55,7 +55,7 @@ with DAG(
                         'id': body['id'],
                         'symbol': body['symbol'],
                         'name': body['name'],
-                        'snapshot_date': data_interval_end
+                        'snapshot_date': datetime.strptime(data_interval_end, '%d-%m-%Y').strftime('%Y-%m-%d')
                     }
                     for curr in currency_id_list:
                         if curr in body['market_data']['current_price']:
@@ -68,19 +68,23 @@ with DAG(
                     price_dict_list.append(price_dict)
 
                 else:
+                    print(f'Attempt {get_crypto_tries + 1 } to get the crypto values has failed. The api status was {r.status_code}')
+                    print(f'The api response was {r.content.decode()}')
                     if get_crypto_tries > 9:
                         get_crypto_bool = False
                         print(f'Could not find values for {crypto_id} in the desired date of {data_interval_end}')
+                        raise Exception('Could not insert the values for this date')
                     get_crypto_tries +=1
-                    t.sleep(30)
+                    t.sleep(15)
 
         client = get_client_bq_client()
 
-        errors = client.insert_rows_json('data-case-study-322621.renan.test_table_crypto', price_dict_list)
+        errors = client.insert_rows_json('data-case-study-322621.renan.crypto_currency', price_dict_list)
         if errors == []:
             print("New rows have been added.")
         else:
             print("Encountered errors while inserting rows: {}".format(errors)) 
+            raise Exception('Could not insert the values for this date')
 
     get_crypto_values = PythonOperator(
         task_id = 'get_crypto_values',

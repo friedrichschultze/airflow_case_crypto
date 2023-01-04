@@ -1,0 +1,40 @@
+[2023-01-04 13:48:42,718] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2022-10-03T07:00:00+00:00 [queued]>
+[2023-01-04 13:48:42,725] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2022-10-03T07:00:00+00:00 [queued]>
+[2023-01-04 13:48:42,725] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 13:48:42,725] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-01-04 13:48:42,726] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-01-04 13:48:42,739] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): get_crypto_values> on 2022-10-03 07:00:00+00:00
+[2023-01-04 13:48:42,744] {standard_task_runner.py:52} INFO - Started process 32146 to run task
+[2023-01-04 13:48:42,750] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'populate_crypto_values', 'get_crypto_values', 'scheduled__2022-10-03T07:00:00+00:00', '--job-id', '701', '--raw', '--subdir', 'DAGS_FOLDER/populate_crypto_values.py', '--cfg-path', '/tmp/tmpgj0u39ei', '--error-file', '/tmp/tmp1_hauhkp']
+[2023-01-04 13:48:42,751] {standard_task_runner.py:80} INFO - Job 701: Subtask get_crypto_values
+[2023-01-04 13:48:42,824] {task_command.py:370} INFO - Running <TaskInstance: populate_crypto_values.get_crypto_values scheduled__2022-10-03T07:00:00+00:00 [running]> on host xuxon-virtual-machine
+[2023-01-04 13:48:42,886] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=populate_crypto_values
+AIRFLOW_CTX_TASK_ID=get_crypto_values
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-03T07:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-10-03T07:00:00+00:00
+[2023-01-04 13:48:43,309] {logging_mixin.py:115} INFO - Attempt 1 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:48:43,310] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:48:58,413] {logging_mixin.py:115} INFO - Attempt 2 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:48:58,414] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:49:13,525] {logging_mixin.py:115} INFO - Attempt 3 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:49:13,525] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:49:28,641] {logging_mixin.py:115} INFO - Attempt 4 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:49:28,642] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:49:43,754] {logging_mixin.py:115} INFO - Attempt 5 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:49:43,755] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:49:58,884] {logging_mixin.py:115} INFO - Attempt 6 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:49:58,884] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:50:14,012] {logging_mixin.py:115} INFO - Attempt 7 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:50:14,013] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:50:29,117] {logging_mixin.py:115} INFO - Attempt 8 to get the crypto values has failed. The api status was 429
+[2023-01-04 13:50:29,117] {logging_mixin.py:115} INFO - The api response was {"status":{"error_code":429,"error_message":"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate limits."}}
+[2023-01-04 13:50:45,024] {logging_mixin.py:115} INFO - New rows have been added.
+[2023-01-04 13:50:45,025] {python.py:173} INFO - Done. Returned value was: None
+[2023-01-04 13:50:45,046] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=populate_crypto_values, task_id=get_crypto_values, execution_date=20221003T070000, start_date=20230104T164842, end_date=20230104T165045
+[2023-01-04 13:50:45,111] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-01-04 13:50:45,140] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
